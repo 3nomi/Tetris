@@ -1,0 +1,75 @@
+body {
+background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230109105801-gulf-cup-mime.jpg?c=original);
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 60px;
+}
+
+
+.scoreTitle {
+  color: white;
+
+}
+#score {
+
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: Black;
+  box-shadow: 0px 0px 20px red;
+  border-radius: 5px;
+  background-image: url(iraq.png+)
+
+
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  box-shadow: 0px 0px 20px black;
+  
+}
+
+.tetromino {
+  background-color: blue;
+  box-shadow: 0px 0px 20px black;
+}
+
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  box-shadow: 0px 0px 20px red;
+  border-radius: 5px;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+#levelTitle {
+  color: white;
+}
+#start-button {
+  background-color: blue;
+}
+#restart-button {
+  background-color: red;
+}
